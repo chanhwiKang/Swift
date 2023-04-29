@@ -1,4 +1,4 @@
-//  main.swift
+//  numbaseball.swift
 //  algorithm
 //
 //  Created by 강찬휘 on 2023/04/25.
@@ -51,7 +51,7 @@ func CheckNumbers(_ pcNumbers: Int, _ userNumbers: Int) -> Void {
 func Result(_ strike: Int, _ ball: Int) -> Bool{
     if strike != 4 {
         print("\(strike)strike, \(ball)ball")
-        print(pcNumbers)
+        //print(pcNumbers) // 컴퓨터 숫자 확인용
         return true
     }
     
